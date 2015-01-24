@@ -72,12 +72,12 @@ var User = function(attr) {
 var user = new User(data);
 
 // user
-// { username: 'jasoki',
-// password: null,
-// email: 'email@gmail.com',
-// city: 'Toronto',
-// country: 'Canada',
-// age: 27 }
+// { username: null,
+// password: 'password',
+// email: null,
+// city: null,
+// country: null,
+// age: null }
 ```
 
 #### `only() for multiple attributes`
@@ -100,12 +100,12 @@ var User = function(attr) {
 var user = new User(data);
 
 // user
-// { username: 'jasoki',
-// password: null,
-// email: 'email@gmail.com',
-// city: 'Toronto',
-// country: 'Canada',
-// age: null }
+// { username: null,
+// password: 'password',
+// email: null,
+// city: null,
+// country: null,
+// age: 27 }
 ```
 
 ### `except()`
