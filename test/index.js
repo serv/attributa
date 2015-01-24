@@ -3,11 +3,12 @@ var mocha     = require('mocha'),
     attributa = require('../lib/index');
 
 describe('attributa', function() {
-  var User = function() {};
-  var user;
-  var data = {};
+  var User,
+      user,
+      data;
 
   beforeEach(function() {
+    User = function() {};
     user = new User();
 
     data = {
@@ -23,6 +24,21 @@ describe('attributa', function() {
   describe('assign', function() {
     it('should assign values for all attributes', function() {
       attributa.assign(user, data);
+
+      assert.equal(user.username, data.username);
+      assert.equal(user.password, data.password);
+      assert.equal(user.email, data.email);
+      assert.equal(user.city, data.city);
+      assert.equal(user.country, data.country);
+      assert.equal(user.age, data.age);
+    });
+
+    it('should assign values for all attributes', function() {
+      User = function(attr) {
+        attributa.assign(this, attr);
+      };
+
+      user = new User(data);
 
       assert.equal(user.username, data.username);
       assert.equal(user.password, data.password);
