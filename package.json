@@ -1,0 +1,28 @@
+{
+  "name": "attributa",
+  "version": "0.0.1",
+  "description": "Easily assign value to `this`",
+  "main": "lib/index.js",
+  "engines": "0.10.35",
+  "scripts": {
+    "test": "node `which gulp` test-once"
+  },
+  "keywords": [
+    "util",
+    "functional"
+  ],
+  "author": "Jason Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-exit": "0.0.2",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
