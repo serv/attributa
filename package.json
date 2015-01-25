@@ -4,6 +4,11 @@
   "description": "Easily assign value to `this`",
   "main": "lib/index.js",
   "engines": "0.10.35",
+  "repository" :
+  {
+  "type" : "git",
+    "url" : "https://github.com/serv/attributa.git"
+  },
   "scripts": {
     "test": "node `which gulp` test-once"
   },
@@ -11,7 +16,7 @@
     "util",
     "functional"
   ],
-  "author": "Jason Kim",
+  "author": "Jason Kim <iamjsonkim@gmail.com> (http://jasonkim.ca)",
   "license": "ISC",
   "devDependencies": {
     "chai": "^1.10.0",
