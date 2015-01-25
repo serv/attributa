@@ -4,6 +4,8 @@
 
 Assign attributes to `this` with just one line!
 
+![](https://circleci.com/gh/serv/attributa.svg?style=shield&circle-token=64:ca:2f:b2:2e:33:db:d3:1a:44:ff:14:26:c3:2c:bb)
+
 ## Installation
 
 Run
