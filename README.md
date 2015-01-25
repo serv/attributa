@@ -1,5 +1,7 @@
 # Attributa
 
+![Imgur](http://i.imgur.com/Ef0jhBY.png)
+
 Assign attributes to `this` with just one line!
 
 ## Installation
